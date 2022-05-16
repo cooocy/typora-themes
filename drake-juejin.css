@@ -438,11 +438,11 @@ table tr td:last-child {
 
 /* height light */
 #write mark {
-    border: .1em solid var(--height-light-border-color);
+    // border: .1em solid var(--height-light-border-color);
     color: var(--height-light-color);
-    background-color: transparent;
+    background-color: #FFFF54;
     padding: .1rem .5rem;
-    border-radius: 2rem;
+    border-radius: 0rem;
     margin: 0 .2rem;
     font-size: .95rem;
 }
