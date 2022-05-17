@@ -441,10 +441,11 @@ table tr td:last-child {
     // border: .1em solid var(--height-light-border-color);
     color: var(--height-light-color);
     background-color: #FFFF54;
-    padding: .1rem .5rem;
-    border-radius: 0rem;
-    margin: 0 .2rem;
-    font-size: .95rem;
+    // padding: .1rem .5rem;
+    border-radius: 0.2rem;
+    // margin: 0 .2rem;
+    // font-size: .95rem;
+    font-weight: bold;
 }
 
 /*shortcut*/
