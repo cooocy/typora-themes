@@ -46,6 +46,8 @@
 
     --strong-color: #BC271A;
     --h2-underline-color: #f4a83a;
+    --h4-underline-color: #bec936;
+    --h6-underline-color: #5cb3cc;
     --horizontal-divider-color: var(--title-color);
     --height-light-color: var(--drake-highlight);
     --height-light-border-color: var(--drake-highlight);
@@ -266,7 +268,7 @@ h3 {
 
 h4 {
     font-size: 1.4rem;
-    color: #bec936;
+    color: var(--h4-underline-color);
 }
 
 h5 {
@@ -275,7 +277,7 @@ h5 {
 
 h6 {
     font-size: 1rem;
-    color: #5cb3cc;
+    color: var(--h6-underline-color);
 }
 
 h1:hover a.anchor,
@@ -541,6 +543,34 @@ kbd {
 .md-toc {
     margin-top: 20px;
     padding-bottom: 20px;
+}
+
+.md-toc-h1.md-toc-inner {
+    margin-left: 0;
+    font-weight:700
+}
+
+.md-toc-h2 .md-toc-inner {
+    margin-left:2em;
+    color: var(--h2-underline-color) !important;
+}
+
+.md-toc-h3.md-toc-inner {
+    margin-left:4em
+}
+
+.md-toc-h4 .md-toc-inner {
+    margin-left:6em;
+    color: var(--h4-underline-color) !important;
+}
+
+.md-toc-h5.md-toc-inner {
+    margin-left:8em
+}
+
+.md-toc-h6 .md-toc-inner {
+    margin-left:10em;
+    color: var(--h6-underline-color) !important;
 }
 
 .typora-quick-open-item {
