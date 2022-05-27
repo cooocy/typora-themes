@@ -35,7 +35,7 @@
     --outline-active-color: var(--a-color);
     --code-block-bg-color: #2b2b2b;
     --code-block-color: #A9B7C6;
-    --title-color: #135ce0;
+    --title-color: #685e48;
 
     border-bottom-color: #EA3323;
 
@@ -45,7 +45,7 @@
     --blockquote-bg-color: #fdefee;
 
     --strong-color: #BC271A;
-    --h2-underline-color: var(--title-color);
+    --h2-underline-color: #f4a83a;
     --horizontal-divider-color: var(--title-color);
     --height-light-color: var(--drake-highlight);
     --height-light-border-color: var(--drake-highlight);
@@ -232,7 +232,7 @@ h6 {
     margin-bottom: 1rem;
     font-weight: bold;
     cursor: text;
-    color: var(--title-color);
+    color: var(--title-color); 
 }
 
 h3.md-focus:before, h4.md-focus:before, h5.md-focus:before, h6.md-focus:before {
@@ -248,6 +248,7 @@ h1 {
 h2.md-end-block.md-heading {
     font-size: 1.8rem;
     display: inline-block;
+    color: var(--h2-underline-color);
 }
 
 h2.md-end-block.md-heading:after {
@@ -265,6 +266,7 @@ h3 {
 
 h4 {
     font-size: 1.4rem;
+    color: #bec936;
 }
 
 h5 {
@@ -273,6 +275,7 @@ h5 {
 
 h6 {
     font-size: 1rem;
+    color: #5cb3cc;
 }
 
 h1:hover a.anchor,
@@ -905,7 +908,7 @@ div.code-tooltip-content {
     color: var(--text-color);
 }
 .megamenu-menu-panel .btn:hover {
-    background-color: var(--btn-hover-bg-color) !important;
+    background-color: #05101D !important;
     color: var(--text-color);
 }
 #recent-file-panel tbody tr:nth-child(2n-1),
